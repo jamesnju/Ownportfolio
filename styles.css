@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    min-height: 5rem;
+    flex-wrap: wrap;
+    background-color: rgb(3, 3, 39);
+    color: ghostwhite;
+    width: 100%;
+}
+.logo{
+    margin: 2rem 2rem;
+    font-weight: 600;
+    color: red;
+}
+.navlinks{
+    gap: 2rem;
+    margin: 2rem 2rem;
+    display: flex;
+    font-size: 18px;
+}
+.navlinks li, a {
+    text-decoration: none;
+    color: ghostwhite;
+    list-style: none;
+    display: flex;
+}
+.navlinks a:hover{
+    color: brown;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 2rem 2rem;
+    background-color: black;
+    overflow: scroll;
+    color: white;
+    flex-wrap: wrap;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#home >p{
+    color: blue;
+    padding: 13rem 20rem ;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: gainsboro;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.about img{
+    height: 10rem;
+    width: 10rem;
+    padding-top: 1px;
+    object-fit: cover;
+    margin-left: 16rem;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.about >h1{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+.about >p{
+    color: black;
+    font-size: 20px;
+}
+#skills{
+    background: gainsboro;
+    border-radius: 20px;
+    margin-top: 2rem;
+    height: 40vh;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-direction: row;
+    padding: 2rem;
+}
+#skills h1{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    width: 100%;
+}
+#skills h2{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+#projects{
+    display: flex;
+    height: 50vh;
+    background-color: gainsboro;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 2rem;
+}
+#projects h1{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    width: 100%;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.pro img{
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+#contact{
+    height: 20vh;
+    background: gainsboro;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+#contact h1{
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+    width: 100%;
+}
+
