@@ -258,14 +258,21 @@ footer h3{
     color: brown;
 }
 .foot{
+    display: flex;
     color: ghostwhite;
     
 }
 .foot p{
-    font-size: 17px;
+    font-size: 3rem;
     padding: 8px;
 
 }
+.foot p:hover{
+    color: brown;
+    background-color: red;
+
+}
+
 @media screen and (max-width: 760px) {
     *{
         padding: 0;margin: 0; box-sizing: border-box;
@@ -338,7 +345,8 @@ footer h3{
         justify-content: space-around;
         height: auto;
     }
-    .foot{
+    .foot{display: flex;
+
         width: auto;
         height: auto;
     }
