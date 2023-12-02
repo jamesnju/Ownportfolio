@@ -158,7 +158,16 @@ body{
     font-weight: 500;
     font-family: Tahoma, Geneva, sans-serif;
 }
-
+.btn{
+    background-color: black;
+    height: 4rem;
+    width: 15rem;
+    border-radius: 18px;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border: 3px solid rgb(248, 11, 248);
+}
 
 #skills >.lang{
     display: flex;
@@ -200,6 +209,16 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
     padding-top: 1rem;
 }
+#Achievements{
+    text-align: center;
+    margin-top: 1rem;
+    color: green;
+    background-color: gainsboro;
+    width: 100%;
+    height: 7rem;
+    border-radius: 5px;
+    padding-top: 1rem;
+}
 .pro img{
     display: flex;
     flex-wrap: wrap;
@@ -207,7 +226,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     width: 20rem;
     object-fit: contain;
     border-radius: 5%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%);  blackandwhite*/
     transition: transform 0.5s;
 }
 .pro img:hover{
