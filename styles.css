@@ -160,7 +160,7 @@ body{
 }
 .btn{
     background-color: black;
-    height: 4rem;
+    height: 6rem;
     width: 15rem;
     border-radius: 18px;
     padding: 1rem;
@@ -254,7 +254,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     height: 45vh;
     background: rgb(6, 6, 43);
     margin-top: 2rem;
@@ -262,14 +262,7 @@ footer{
     width: 100%;
     
 }
-footer h1{
-    border-bottom: 1px solid ghostwhite;
-    text-align: center;
-    color: green;
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 6px;
-}
+
 footer h3{
     margin-top: 2rem;
     width: 100%;
@@ -279,22 +272,32 @@ footer h3{
 .foot{
     display: flex;
     color: ghostwhite;
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-around;
     
 }
 .foot p{
     font-size: 3rem;
     padding: 8px;
+    margin-top: 3rem;
 
 }
+
 .foot p:hover{
-    color: brown;
-    background-color: red;
+    /* color: brown;
+    background-color: red; */
 
 }
 
 @media screen and (max-width: 760px) {
     *{
         padding: 0;margin: 0; box-sizing: border-box;
+    }
+    body{
+        max-width: 500px;
+        overflow-x: hidden;
     }
     .navbar{
         max-width: 100%;
@@ -309,15 +312,13 @@ footer h3{
         flex-wrap: wrap;
         justify-content: center;
         width: auto;
-        height: auto;
-        
-       
+        height: auto;      
     }
     #home >p{
         margin-top: -2rem;
         /* width: min-content;
-        height: min-content; */
-        margin: auto;
+        height: min-content; 
+        margin: auto;*/
     }
     .about{
         display: flex;
@@ -369,4 +370,5 @@ footer h3{
         width: auto;
         height: auto;
     }
-}
+} 
+
