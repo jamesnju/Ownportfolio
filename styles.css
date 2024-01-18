@@ -353,6 +353,7 @@ footer h3{
     }
     .about >p{
         width:auto;
+        font-size: 20px;
         height: auto; 
         padding: 1rem;
         margin-bottom: 2rem;
